@@ -32,6 +32,18 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container {
   width: 100%;
   max-width: 1158px;
@@ -59,6 +71,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
+
   margin-right: 76px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -70,7 +83,7 @@ ul {
   gap: 40px;
   font-weight: 500;
   font-size: 16px;
-
+  padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
